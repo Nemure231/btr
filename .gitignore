@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+dist
+public/assets/base/tailwindcss/output.css
+dist-ssr
+*.local

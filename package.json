@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "tailwindcss-watch": "npx tailwindcss -i ./public/assets/base/tailwindcss/input.css -o ./public/assets/base/tailwindcss/output.css --watch",
+    "minify-css": "npx tailwindcss -i ./public/assets/base/tailwindcss/output.css -o ./public/assets/base/tailwindcss/output.min.css --minify",
+    "pretty-sort" : "npx prettier -w ./public/**/*.html"
+  },
+  "devDependencies": {
+    "prettier": "^2.7.1",
+    "prettier-plugin-tailwindcss": "^0.1.13",
+    "tailwindcss": "^v3.2.4"
+  }
+}
